@@ -4,8 +4,8 @@ Code repository for processing data and generating figures from Verboncoeur et a
 Data associated with this repository is [available on Zenodo](). Datasets that will allow the code to run are referenced in code comments.
 
 ## This repository includes:
-1. Codes to run each of the figures and supplemental figures (located in the figures/code folder).
-2. `.afdesign` files where we compiled final versions of some figures (located in the figures/afdesign folder)
+1. Codes to run each of the figures and supplemental figures (located in the code folder).
+2. `.afdesign` files where we compiled final versions of some figures (located in the afdesign folder)
 3. .png versions of each of the figures (located in the figures folder)
 
 ## Running the notebooks and setting up the environment: 
