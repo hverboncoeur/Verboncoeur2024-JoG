@@ -1,2 +1,2 @@
-This is a set of six scripts used in CryoCloud (https://cryointhecloud.com/) to pull ICESat-2 elevation data from NASA, crop it, and download for dh/dt processing.
+This is a set of six scripts used in CryoCloud (https://cryointhecloud.com/) to pull ICESat-2 elevation data from NASA, crop them, and download for dh/dt processing.
 Get a CryoCloud account and start with 'SimpleExport.ipynb'.
