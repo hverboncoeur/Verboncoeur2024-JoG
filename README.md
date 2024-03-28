@@ -20,6 +20,10 @@ Data associated with this repository is [available on Zenodo](). Datasets that w
 8. Unarchive the data into the current directory in a command line: `unzip data.zip`
 9. Open the notebook from the file browser on the left side and hit play on the cells to your heart's content.
 
+## Notes
+1. The code for delineating boundaries around surface-height anomalies comes from Wilson Sauthoff. Boundaries used in this study are located in the figures folder as shapefiles.
+
+
 ## Referencing
 
 If you use code or data from this repository, please cite both the publication in _Journal of Glaciology_ and the code:
