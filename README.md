@@ -1,11 +1,11 @@
 # Verboncoeur2024-JoG
-Code repository for processing data and generating figures from Verboncoeur et al., 2024, _Journal of Glaciology_ (doi: []()). Code for generating figures in the manuscript, including the `.afdesign` files (made with [Affinity Designer](https://affinity.serif.com/en-us/designer/), an Adobe Illustrator alternative) for making adjustments in future use. See [referencing section](#referencing) for appropriate citations.
+Code repository for calculating surface elevation change over time (dh/dt) using ICESat, CryoSat-2, and ICESat-2 altimetry data and generating figures from Verboncoeur et al., 2024, _Journal of Glaciology_ (doi: []()). See [referencing section](#referencing) for appropriate citations.
 
-Data associated with this repository is [available on Zenodo](). Datasets that will allow the code to run are referenced in code comments.
+Data files associated with this repository are [available on Zenodo]() and otherwise linked within the scripts.
 
 ## This repository includes:
-1. Codes and associated files to reproduce each of the figures and supplemental figures (located in the code folder).
-2. `.afdesign` files where we compiled final versions of some figures (located in the afdesign folder)
+1. Scripts and associated files to reproduce each of the figures and supplemental figures (located in the 'figure_scripts' folder).
+2. `.afdesign` files where we compile and annotate final versions of figures (located in the 'afdesign' folder). [Affinity Designer](https://affinity.serif.com/en-us/designer/) is an Adobe Illustrator alternative.
 3. .png versions of each of the figures (located in the figures folder)
 
 ## Running the notebooks and setting up the environment: 
@@ -21,8 +21,9 @@ Data associated with this repository is [available on Zenodo](). Datasets that w
 9. Open the notebook from the file browser on the left side and hit play on the cells to your heart's content.
 
 ## Notes
-1. The code for delineating boundaries around surface-height anomalies comes from Wilson Sauthoff. Boundaries used in this study are located in the figures folder as shapefiles.
 
+1. The scripts for delineating boundaries around surface-height anomalies come from in-prep work by Wilson Sauthoff ([link to be updated with publication] (https://github.com/wsauthoff)). All boundaries used in this study are located in the 'code/shapefiles' folder as shapefiles.
+2. Data from ICESat, CryoSat-2, and ICESat-2 used in this study are available on Zenodo ([link] ()). The resulting dh/dt time series are available at the same link.
 
 ## Referencing
 
