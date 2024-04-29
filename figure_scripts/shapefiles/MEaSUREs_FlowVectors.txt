@@ -1,0 +1,25 @@
+MEaSUREs InSAR-based Antarctica Flow Vectors, resampled at every 20 km.
+
+For description of velocity map in general, see the ice flow speed layer.
+
+Rignot, E., J. Mouginot, and B. Scheuchl. 2017. MEaSUREs InSAR-Based Antarctica Ice Velocity Map, Version 2. Boulder, Colorado USA. NASA National Snow and Ice Data Center Distributed Active Archive Center. doi: https://doi.org/10.5067/D7GK8F5J8M8R.
+
+Download: 12 April 2018
+
+Original data include x and y components (VX and VY, respectively) projected to EPSG3031 at 450 m resolutions. It is resampled at 20 km intervals, and the flow direction sym_angle (degrees) is derived using sum_angle = arctan(VY/VX). The arrow length sym_length is exponentially proportional to the speed, i.e. sym_length = log_e(sqrt(VX^2 + XY^2). Other minor arrow shapes slightly depends on the speed.
+
+As a condition of using these data, the authors request that you acknowledge the authors of this data set by referencing the following peer-reviewed publication.
+
+Rignot, E., J. Mouginot, and B. Scheuchl. 2011. Ice Flow of the Antarctic Ice Sheet, Science. 333. 1427-1430. https://doi.org/10.1126/science.1208336
+
+Mouginot, J., B. Scheuchl, and E. Rignot. 2012. Mapping of Ice Motion in Antarctica Using Synthetic-Aperture Radar Data, Remote Sensing. 4. 2753-2767. https://doi.org/10.3390/rs4092753
+
+Editor
+Anne LeBrocq
+A.LeBrocq@exeter.ac.uk
+
+Author
+Rignot et al / NSIDC
+nsidc@nsidc.org
+
+Old Version 1 (900m, 2011): https://nsidc.org/data/NSIDC-0484/versions/1 
