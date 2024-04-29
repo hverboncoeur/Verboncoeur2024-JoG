@@ -1,5 +1,5 @@
 # this is a record of how we called SMBcorr (https://smbcorr.readthedocs.io/en/latest/#) to perform a SMB/FAC correction at every elevation 
-# data point before calculating dh/dt. We set up a separate environment titled SMBcorr for this process. We used the GSFC-fdm-v1.2.1 from: 
+# data point before calculating dh/dt. We set up a separate environment titled SMB for this process (SMB.env is located in the /environments/ folder). We used the GSFC-fdm-v1.2.1 from: 
 AIS FAC: https://nasagov.box.com/s/asfwbppzfb3puguno5bjkof4qbouuoio
 AIS SMB: https://nasagov.box.com/s/ofypus7hnq5fslttilmd4yyq84cje0h9
 
