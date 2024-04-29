@@ -1,0 +1,10 @@
+# In the environments folder you will find the three python environments used for this project. Here are their descriptions:
+
+# 'verb2024'
+# this environment is used to run the Figure 1 script. It is based around pyGMT.
+
+# 'SMB'
+# this environment is used to run the SMBcorr scripts (https://smbcorr.readthedocs.io/en/latest/). Example usage of SMBcorr is located in '/figure_scripts/SMBcorr_command'
+
+# 'henv'
+# this environment is used to run scripts for Figures 2-5.
