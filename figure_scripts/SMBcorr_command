@@ -1,0 +1,19 @@
+# this is a record of how we called SMBcorr (https://smbcorr.readthedocs.io/en/latest/#) to perform a SMB/FAC correction at every elevation 
+# data point before calculating dh/dt. We set up a separate environment titled SMBcorr for this process. We used the GSFC-fdm-v1.2.1 from: 
+AIS FAC: https://nasagov.box.com/s/asfwbppzfb3puguno5bjkof4qbouuoio
+AIS SMB: https://nasagov.box.com/s/ofypus7hnq5fslttilmd4yyq84cje0h9
+
+# ICESat file example:
+interp_SMB_correction.py --directory /Users/hannah/Documents/Research/CraryIceRise/SMBFAC/SMBcorr/ --model GSFC-fdm-v1.2.1 
+--region AA --format parquet --variables time y x elev --type drift --epoch "seconds since 2000-01-01T12:00:00" 
+--standard UTC --projection 3031 -V -V /Users/hannah/Documents/Research/CraryIceRise/ICESatCodes/FilesforSMB/IS_SMB_t0023_.parquet
+
+# CryoSat-2 file example:
+interp_SMB_correction.py --directory /Users/hannah/Documents/Research/CraryIceRise/SMBFAC/SMBcorr/ --model GSFC-fdm-v1.2.1 --region AA 
+--format parquet --variables datetime64 y x elevation --type drift --standard datetime --projection 3031 -V -V 
+/Users/hannah/Documents/Research/CraryIceRise/CryoSat2/cs2-crary-parquet/cs2-crary-2012.parquet
+
+# ICESat-2 file example:
+interp_SMB_correction.py --directory /Users/hannah/Documents/Research/CraryIceRise/SMBFAC/SMBcorr/ --model GSFC-fdm-v1.2.1 --region AA 
+--format parquet --variables time y x h_li --type drift --epoch "seconds since 2018-01-01" --standard GPS --projection 3031 -V -V 
+/Users/hannah/Documents/Research/CraryIceRise/ICESat2/ATL06/_15.parquet
