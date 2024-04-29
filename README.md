@@ -22,7 +22,7 @@ Data files associated with this repository are [available on Zenodo]() and other
 
 ## Notes
 
-1. The scripts for delineating boundaries around surface-height anomalies come from in-prep work by Wilson Sauthoff ([link to be updated with publication] (https://github.com/wsauthoff)). All boundaries used in this study are located in the 'code/shapefiles' folder as shapefiles.
+1. The scripts for delineating boundaries around surface-height anomalies come from in-prep work by Wilson Sauthoff ([link to be updated with publication] (https://github.com/wsauthoff)). All boundaries used in this study are located in the 'figure_scripts/shapefiles' folder as shapefiles.
 2. Data from ICESat, CryoSat-2, and ICESat-2 used in this study are available on Zenodo ([link] ()). The resulting dh/dt time series are available at the same link.
 
 ## Referencing
