@@ -1,7 +1,7 @@
 # Verboncoeur2024-JoG
 Version 1 of code repository analyzing surface elevation change over time (dh/dt) using ICESat, CryoSat-2, and ICESat-2 altimetry data and generating figures from Verboncoeur et al., 2024, _Journal of Glaciology_ (doi: []()). See [referencing section](#referencing) for appropriate citations.
 
-Data files associated with this repository are [available on Zenodo]() and otherwise linked within the scripts.
+Data files associated with this repository are [available on Zenodo](10.5281/zenodo.11396588) and otherwise linked within the scripts.
 
 ## Version 1 of this repository includes:
 1. Scripts and associated files to reproduce each of the figures and supplemental figures (located in the 'figure_scripts' folder);
