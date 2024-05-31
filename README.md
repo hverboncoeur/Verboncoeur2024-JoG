@@ -34,6 +34,6 @@ Data files associated with this repository are [available on Zenodo](https://zen
 
 If you use code or data from this repository, please cite both the publication in _Journal of Glaciology_ and the code:
 
->**Zenodo citation
+>Verboncoeur, H. (2024). Crary Ice Rise region dh/dt estimates (Verboncoeur et al., 2024; JoG) [Data set]. In Journal of Glaciology (Version 1). Zenodo. https://doi.org/10.5281/zenodo.11396588
 
 >**Paper citation
