@@ -1,7 +1,7 @@
 # Verboncoeur2024-JoG
 Version 1 of code repository analyzing surface elevation change over time (dh/dt) using ICESat, CryoSat-2, and ICESat-2 altimetry data and generating figures from Verboncoeur et al., 2024, _Journal of Glaciology_ (doi: []()). See [referencing section](#referencing) for appropriate citations.
 
-Data files associated with this repository are [available on Zenodo](https://zenodo.org/doi/10.5281/zenodo.11396587) and otherwise linked within the scripts.
+Data files associated with this repository are [available on Zenodo](https://doi.org/10.5281/zenodo.11396588) and otherwise linked within the scripts.
 
 ## Version 1 of this repository includes:
 1. Scripts and associated files to reproduce each of the figures and supplemental figures (located in the 'figure_scripts' folder);
@@ -34,6 +34,6 @@ Data files associated with this repository are [available on Zenodo](https://zen
 
 If you use code or data from this repository, please cite both the publication in _Journal of Glaciology_ and the code:
 
->Verboncoeur, H., & Siegfried, M. (2024). Crary Ice Rise region dh/dt estimates (Verboncoeur et al., 2024; JoG) [Data set]. In Journal of Glaciology (Version 1). Zenodo. https://doi.org/10.5281/zenodo.11396588
+>Verboncoeur, H., Siegfried, M., Holschuh, N., Winberry, P., Byrne, D., Sauthoff, W., Sutterley, T., & Medley, B. (2024). Crary Ice Rise region dh/dt estimates (Verboncoeur et al., 2024; JoG) [Data set]. In Journal of Glaciology (Version 1). Zenodo. https://doi.org/10.5281/zenodo.11396588
 
 >**Paper citation
