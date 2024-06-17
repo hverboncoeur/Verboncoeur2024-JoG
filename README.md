@@ -1,17 +1,14 @@
 # Verboncoeur2024-JoG
-Version 1 of code repository analyzing surface elevation change over time (dh/dt) using ICESat, CryoSat-2, and ICESat-2 altimetry data and generating figures from Verboncoeur et al., 2024, _Journal of Glaciology_ (doi: []()). See [referencing section](#referencing) for appropriate citations.
+Code repository that calculates and analyzes surface elevation change over time (dh/dt) using ICESat, CryoSat-2, and ICESat-2 altimetry data over the Crary Ice Rise region. Scripts included for generating figures from Verboncoeur et al., 2024, _Journal of Glaciology_ (doi: []()). See [referencing section](#referencing) for appropriate citations.
 
 Data files associated with this repository are [available on Zenodo](https://doi.org/10.5281/zenodo.11396588) and otherwise linked within the scripts.
 
 ## Version 1 of this repository includes:
-1. Scripts and associated files to reproduce each of the figures and supplemental figures (located in the 'figure_scripts' folder);
-2. `.afdesign` files where we compile and annotate final versions of figures (located in the 'afdesign' folder). [Affinity Designer](https://affinity.serif.com/en-us/designer/) is an Adobe Illustrator alternative;
-3. .png versions of each of the figures (located in the figures folder);
-4. environment files (to be consolidated into one file for version 2)
-
-## Version 2 of this repository will include:
-1. A script to process ICESat, CryoSat-2, and ICESat-2 data and calculate dh/dt
-2. A consolidated environment file
+1. Scripts to calculate the 20-year time series of surface elevation change rates (dh/dt) from ICESat, CryoSat-2, and ICESat-2 (located in the 'figure_scripts' folder);
+2. a script to reproduce each of the figures and supplemental figures (located in the 'figure_scripts' folder);
+3. `.afdesign` files where we compile and annotate final versions of figures (located in the 'afdesign' folder). [Affinity Designer](https://affinity.serif.com/en-us/designer/) is an Adobe Illustrator alternative;
+4. .png versions of each of the figures (located in the figures folder);
+5. environment files.
 
 ## Running the notebooks and setting up an example environment: 
 
@@ -28,7 +25,7 @@ Data files associated with this repository are [available on Zenodo](https://doi
 ## Notes
 
 1. The scripts for delineating boundaries around surface-height anomalies come from in-prep work by Wilson Sauthoff ([link to be updated with publication] (https://github.com/wsauthoff)). All boundaries used in this study are located on Zenodo in the 'SHAPES' folder. 
-2. Data from ICESat, CryoSat-2, and ICESat-2 used in this study are available on Zenodo ([link] ()). The resulting dh/dt time series are available at the same link.
+2. Subsetted data from ICESat, CryoSat-2, and ICESat-2 used in this study are available on Zenodo ([link] ()). The resulting dh/dt time series are available at the same link.
 
 ## Referencing
 
