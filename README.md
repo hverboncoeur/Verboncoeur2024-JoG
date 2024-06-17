@@ -25,7 +25,7 @@ Data files associated with this repository are [available on Zenodo](https://doi
 ## Notes
 
 1. The scripts for delineating boundaries around surface-height anomalies come from in-prep work by Wilson Sauthoff ([link to be updated with publication] (https://github.com/wsauthoff)). All boundaries used in this study are located on Zenodo in the 'SHAPES' folder. 
-2. Subsetted data from ICESat, CryoSat-2, and ICESat-2 used in this study are [available on Zenodo](https://doi.org/10.5281/zenodo.11992319). The resulting dh/dt time series are available at the same link.
+2. Subsetted data from ICESat and ICESat-2 used in this study are [available on Zenodo](https://doi.org/10.5281/zenodo.11992319). CryoSat-2 data from [CryoTEMPO-EOLIS](https://cryotempo-eolis.org/). The resulting dh/dt time series are available at the same link.
 
 ## Referencing
 
