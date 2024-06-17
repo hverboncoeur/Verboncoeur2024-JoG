@@ -1,5 +1,5 @@
-# In the environments folder you will find the three python environments used for this project. Version 2 of this repository will try to consolidate 
-# the environments into one. Here are their descriptions:
+# In the environments folder you will find the four Python environments used for this project. Eventually we will try to consolidate 
+# the environments into one or two. Here are their descriptions:
 
 # 'verb2024fig1'
 # this environment is used to run the Figure 1 script. It is based around pyGMT.
@@ -7,5 +7,8 @@
 # 'SMB'
 # this environment is used to run the SMBcorr scripts (https://smbcorr.readthedocs.io/en/latest/). Example usage of SMBcorr is located in '/figure_scripts/SMBcorr_command'
 
+# 'dhdt'
+# this environment is used to run the dh/dt calculation script.
+
 # 'henv'
-# this environment is used to run scripts for Figures 2-5.
+# this environment is used to run the script for producing Figures 2-5.
